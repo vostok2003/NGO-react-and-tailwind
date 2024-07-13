@@ -5,8 +5,8 @@ function Home(){
     return(<div>
         <div className="pb-14 border-b-2 w-11/12 flex flex-col flex-wrap  justify-between place-items-center max-w-[1160px] py-4 mx-auto">
             <h1 className=" mt-32 flex flex-col gap-y-3 flex-wrap justify-center place-items-center text-6xl px-14  mx-10">
-            <div>Inspiring strong regenerative action</div>
-            <div>for people and planet.</div> 
+            <div>Inspiring strong regenerative action for people and planet.</div>
+            
             </h1>
             <img src="https://cdn.prod.website-files.com/63e1350ab447818409526026/63e61aece565b8368404c767_foliage-home-p-800.webp"
                 height={300} width={300} 
