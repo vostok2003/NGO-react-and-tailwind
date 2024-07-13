@@ -4,7 +4,7 @@ import advisoryData from "../data/servicedata";
 function Home(){
     return(<div>
         <div className="pb-14 border-b-2 w-11/12 flex flex-col flex-wrap  justify-between place-items-center max-w-[1160px] py-4 mx-auto">
-            <h1 className=" mt-32 flex flex-col gap-y-3 flex-wrap justify-center place-items-center text-6xl px-14 text-justify mx-10">
+            <h1 className=" mt-32 flex flex-col gap-y-3 flex-wrap justify-center place-items-center text-6xl px-14  mx-10">
             <div>Inspiring strong regenerative action</div>
             <div>for people and planet.</div> 
             </h1>
@@ -23,7 +23,7 @@ function Home(){
                 <div>supply chains, or credible verification? Become a member of Pond </div>
                 <div>Foundation, and we will support you with:</div>
             </div>
-            <div className="flex flex-wrap gap-10 mx-14">
+            <div className="flex flex-wrap gap-10 mx-14 place-items-center justify-center">
                     {advisoryData.map((advisory) => (
                         <div key={advisory.id} className="flex  w-[25vw] place-items-center text-lg p-5 border rounded-md shadow-md ">
                             <div className="text-6xl mb-4">{advisory.icon}</div>
