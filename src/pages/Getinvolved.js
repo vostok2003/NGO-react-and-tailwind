@@ -24,7 +24,7 @@ function Getinvolved(){
             </div>
             <div className="mt-6 pb-20 border-b-2" >
                 <h1 className="text-4xl text-center ">What we can do together?</h1>
-                <div className="flex flex-wrap gap-y-10 mx-1">
+                <div className="flex flex-wrap gap-y-10">
                     {initiativesData.map((initiative) => (
                         <div key={initiative.id} className="flex flex-col w-[45vw] place-items-center text-lg ">
                             <img src={initiative.src} alt={initiative.description}
